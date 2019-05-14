@@ -1,3 +1,5 @@
 Repositorio e documentação do site t-RexCicla
 
-COnfiguração do Git e GitHub
+Configuração do Git e Github
+
+www.udemy.com --> curso de Git
