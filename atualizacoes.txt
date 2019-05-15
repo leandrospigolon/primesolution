@@ -1,0 +1,7 @@
+1ª Estrutura de pastas implementadas(4rs, mapaUrb, onu2030, conteudo, INcont, img);
+2ª adicão do componente onu 2030, 4RS;
+3ª IN no inicio dos arquivos html signfica uma pagina a dentro(rol de conteudos);
+4ª pasta conteudo dentro da pasta INcont armazena conteudo de todas as paginas;
+5ª Con(n).html se refere a paginas com conteudo, TIPO: TEXT, FOTO, VIDEO E ETC; COPIA E COLA O TEMPLATE DENTRO DA PASTA CONTEUDO
+ATENÇÃO:OS CAMINHOS DAS PÁGINAS DEVEM SER FEITAS A CADA CRIAÇÃO DE CONTEUDO.
+duvidas falar com emanuel, são 01:18am perdão algum erro.

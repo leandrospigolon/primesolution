@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>T-RexCicla</title>
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+    	body{
+    		background-color: #e3f2fd;
+    	}
+    </style>
+
+</head>
+<body>
+<!--inicio da barra de navegação-->
+<nav>
+    <div class="nav-wrapper blue lighten-1">
+      <a href="#!" class="brand-logo">T-RexCicla</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="../4rs/4Rs.html">4R'S</a></li>
+        <li><a href="mapaurbano.html">Mapa Urbano</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../4rs/4Rs.html">4 R´s</a></li>
+    <li><a href="../mapaUrb/mapaurbano.html">Mapa Urbano</a></li>
+  </ul>
+
+ <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+  </script>
+<!--final menu-->
+
+<!-- BARRA DE PESQUISA-->
+  <nav>
+    <div class="nav-wrapper cyan lighten-4">
+      <form>
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+    </div>
+  </nav>
+<!--final-->
+<br>
+<!--inicio conteudo S para celular m para tablet ou Pc-->
+  <div class="container">
+
+    <h2>Mapa Urbano</h2>
+
+<div class="maps">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63212.19676041778!2d-34.938309712428186!3d-8.023428531175929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1szonas+recife!5e0!3m2!1spt-BR!2sbr!4v1557924064834!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<br>
+
+<!--botoes-->
+<div class="center" id="botoes">
+<a class="waves-effect waves-light btn-large">Zona de Risco</a>
+<a class="waves-effect waves-light btn-large">Áreas de preservação</a>
+<a class="waves-effect waves-light btn-large">Pontos de Coleta Seletiva</a>
+ </div>
+
+</div>
+  <br>
+<!--fim conteudo-->
+
+<!--inicio do rodape-->
+<footer class="page-footer blue lighten-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Sobre nós</h5>
+                <p class="grey-text text-lighten-4">Temos o intuito de levar as boas práticas de reciclagem aos cidadões.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Nossas Páginas</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">instagram</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2019 Prime Solutions
+            <a class="grey-text text-lighten-4 right" href="#!">Mais</a>
+            </div>
+          </div>
+        </footer>
+
+        <!--js do mapa-->
+				<script src="dream.js" charset="utf-8"></script>
+</body>
+</html>
